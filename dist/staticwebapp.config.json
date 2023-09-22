@@ -7,15 +7,19 @@
     },
     {
       "route": "/index.html",
-      "rewrite": "/en/index.html"
+      "rewrite": "/dist/apps/ac-mobile/en/index.html"
     },
     {
       "route": "/en/*",
-      "rewrite": "/en/index.html"
+      "rewrite": "/dist/apps/ac-mobile/en/index.html"
     },
     {
       "route": "/es/*",
-      "rewrite": "/es/index.html"
+      "rewrite": "/dist/apps/ac-mobile/en/index.html"
+    },
+    {
+      "route": "/testroute",
+      "rewrite": "/dist/apps/ac-mobile/testroute/index.html"
     }
   ],
   "navigationFallback": {
