@@ -3,7 +3,7 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/en/index.html"
+      "rewrite": "/testroute/index.html"
     },
     {
       "route": "/index.html",
