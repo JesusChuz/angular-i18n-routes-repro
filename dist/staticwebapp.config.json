@@ -15,7 +15,7 @@
     },
     {
       "route": "/es/*",
-      "rewrite": "/dist/apps/ac-mobile/en/index.html"
+      "rewrite": "/dist/apps/ac-mobile/es/index.html"
     },
     {
       "route": "/testroute",
