@@ -3,7 +3,7 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/testroute/index.html"
+      "rewrite": "/dist/apps/ac-mobile/en/index.html"
     },
     {
       "route": "/index.html",
