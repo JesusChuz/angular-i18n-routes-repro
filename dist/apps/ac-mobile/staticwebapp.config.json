@@ -3,23 +3,23 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/dist/apps/ac-mobile/en/index.html"
+      "rewrite": "/en/index.html"
     },
     {
       "route": "/index.html",
-      "rewrite": "/dist/apps/ac-mobile/en/index.html"
+      "rewrite": "/en/index.html"
     },
     {
       "route": "/en/*",
-      "rewrite": "/dist/apps/ac-mobile/en/index.html"
+      "rewrite": "/en/index.html"
     },
     {
       "route": "/es/*",
-      "rewrite": "/dist/apps/ac-mobile/es/index.html"
+      "rewrite": "/es/index.html"
     },
     {
       "route": "/testroute",
-      "rewrite": "/dist/apps/ac-mobile/testroute/index.html"
+      "rewrite": "/testroute/index.html"
     }
   ],
   "navigationFallback": {
