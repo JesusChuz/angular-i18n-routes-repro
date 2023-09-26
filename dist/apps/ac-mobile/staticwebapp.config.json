@@ -3,33 +3,33 @@
   "routes": [
    {
       "route": "/",
-      "redirect": "/en/index.html",
+      "redirect": "/en/index.html/",
       "statusCode": 301
     },
     {
       "route": "/index.html",
-      "redirect": "/en/index.html",
+      "redirect": "/en/index.html/",
       "statusCode": 301
     },
     {
       "route": "/en/*",
-      "redirect": "/en/index.html",
+      "redirect": "/en/index.html/",
       "statusCode": 301
     },
     {
       "route": "/es/*",
-      "redirect": "/es/index.html",
+      "redirect": "/es/index.html/",
       "statusCode": 301
     },
     {
       "route": "/testroute",
-      "redirect": "/testroute/index.html",
+      "redirect": "/testroute/index.html/",
       "statusCode": 301
     }
   ],
   "navigationFallback": {
     "rewrite": "/en/index.html",
-    "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*", "/html/*"]
+    "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*"]
   },
   "mimeTypes": {
     ".json": "text/json"
