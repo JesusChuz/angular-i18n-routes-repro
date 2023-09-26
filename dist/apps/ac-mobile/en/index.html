@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en" style=" height: 100%" class="sm:scroll-smooth" dir="ltr"><head>
     <meta charset="utf-8">
     <title>Athlete Connect</title>
-    <base href="/en">
+    <base href="/en/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="manifest" href="manifest.webmanifest">
@@ -28,9 +28,7 @@
       var WHITESCREEN_EMPTY_APP_ROOT_DELAY = 8000;
       var WHITESCREEN_ERROR_DELAY = 5000;
       function showWhitescreenError(e){console.error(e);var r=document.getElementById("whitescreen");"block"!==r.style.display&&(document.getElementById("whitescreen-stack").innerHTML=e.stack.replace(/\n/g,"<br/>"),r.style.display="block",document.body.style.display="block")}window.addEventListener("error",function(e){setTimeout(()=>{showWhitescreenError(e.error)},WHITESCREEN_ERROR_DELAY)}),setTimeout(function(){document.getElementsByTagName("usada-web-root")[0].children.length||showWhitescreenError(new Error("Empty usada-web-root"))},WHITESCREEN_EMPTY_APP_ROOT_DELAY);   </script>
-  <script src="runtime.d4a9c5e5fb9e08d7.js" type="module"></script><script src="polyfills.8c52e8945f922533.js" type="module"></script><script src="main.7c5e6c92645435c3.js" type="module"></script>
-
-
+    <script src="runtime.d4a9c5e5fb9e08d7.js" type="module"></script><script src="polyfills.8c52e8945f922533.js" type="module"></script><script src="main.7c5e6c92645435c3.js" type="module"></script>
     
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-G280HRY510"></script>
     <script>
