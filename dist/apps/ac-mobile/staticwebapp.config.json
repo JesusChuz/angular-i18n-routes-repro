@@ -3,23 +3,28 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/en/index.html"
+      "redirect": "/en/index.html",
+      "statusCode": 301
     },
     {
       "route": "/index.html",
-      "rewrite": "/en/index.html"
+      "redirect": "/en/index.html",
+      "statusCode": 301
     },
     {
       "route": "/en/*",
-      "rewrite": "/en/index.html"
+      "redirect": "/en/index.html",
+      "statusCode": 301
     },
     {
       "route": "/es/*",
-      "rewrite": "/es/index.html"
+      "redirect": "/es/index.html",
+      "statusCode": 301
     },
     {
       "route": "/testroute",
-      "rewrite": "/testroute/index.html"
+      "redirect": "/testroute/index.html",
+      "statusCode": 301
     }
   ],
   "navigationFallback": {
