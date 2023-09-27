@@ -17,6 +17,10 @@
       "route": "/es/profile",
       "rewrite": "/es/profile/index.html/"
     },
+    {
+      "route": "/es/*/",
+      "rewrite": "/es/profile/index.html/"
+    },
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
