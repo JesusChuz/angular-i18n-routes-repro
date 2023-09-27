@@ -24,6 +24,6 @@
   ],
   "navigationFallback": {
     "rewrite": "/en/index.html",
-    "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*"]
+    "exclude": ["/assets/*", "/es/*.{js,css}", "/en/*.{js,css}"]
   }
 }
