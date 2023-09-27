@@ -8,22 +8,18 @@
     {
       "route": "/index.html",
       "rewrite": "/en/index.html/"
+    },  
+    {
+      "route": "/en",
+      "rewrite": "/en/index.html/"
+    }, 
+    {
+      "route": "/es",
+      "rewrite": "/es/index.html/"
     },      
     {
       "route": "/testroute",
       "rewrite": "/testroute/index.html/"
-    },
-    {
-      "route": "/es/profile",
-      "rewrite": "/es/profile/index.html/"
-    },
-    {
-      "route": "/es/*",
-      "rewrite": "/es/index.html/"
-    },
-    {
-      "route": "/en/*",
-      "rewrite": "/es/index.html/"
     }
   ],
   "navigationFallback": {
