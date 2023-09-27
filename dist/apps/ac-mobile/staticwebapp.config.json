@@ -20,6 +20,10 @@
     {
       "route": "/es/*",
       "rewrite": "/es/index.html/"
+    },
+    {
+      "route": "/en/*",
+      "rewrite": "/en/index.html/"
     }
   ],
   "navigationFallback": {
