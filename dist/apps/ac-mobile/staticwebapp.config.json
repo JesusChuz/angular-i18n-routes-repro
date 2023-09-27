@@ -2,14 +2,6 @@
   "trailingSlash": "auto",
   "routes": [
     {
-      "route": "/",
-      "rewrite": "/en/index.html/"
-    },    
-    {
-      "route": "/index.html",
-      "rewrite": "/en/index.html/"
-    },
-    {
       "route": "/testroute",
       "rewrite": "/testroute/index.html/"
     },
@@ -23,8 +15,7 @@
     },
     {
       "route": "/en/*",
-      "redirect": "/",
-      "statusCode": "302"
+      "rewrite": "/en/index.html/"
     }
   ],
   "navigationFallback": {
