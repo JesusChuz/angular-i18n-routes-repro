@@ -19,7 +19,7 @@
     },
     {
       "route": "/es/*",
-      "rewrite": "/es/profile/index.html/"
+      "rewrite": "/es/index.html/"
     },
   ],
   "navigationFallback": {
