@@ -18,6 +18,10 @@
       "rewrite": "/es/profile/index.html/"
     },
     {
+      "route": "/en/*",
+      "rewrite": "/en/index.html/"
+    },
+    {
       "route": "/es/*",
       "rewrite": "/es/index.html/"
     },
