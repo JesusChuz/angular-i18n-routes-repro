@@ -16,14 +16,6 @@
     {
       "route": "/es",
       "rewrite": "/es/index.html/"
-    },      
-    {
-      "route": "/testroute",
-      "rewrite": "/testroute/index.html/"
-    },      
-    {
-      "route": "/en/*.{js,css}",
-      "rewrite": "/en/index.html/"
     }
   ],
   "navigationFallback": {
