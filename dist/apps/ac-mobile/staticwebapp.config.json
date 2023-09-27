@@ -23,7 +23,8 @@
     },
     {
       "route": "/en/*",
-      "rewrite": "/"
+      "redirect": "/",
+      "statusCode": "302"
     }
   ],
   "navigationFallback": {
