@@ -23,7 +23,7 @@
     }
   ],
   "navigationFallback": {
-    "rewrite": "/index.html",
+    "rewrite": "/en/index.html",
     "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*"]
   }
 }
