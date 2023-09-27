@@ -15,7 +15,7 @@
     },
     {
       "route": "/en/*",
-      "rewrite": "/en/index.html/"
+      "rewrite": "/es/index.html/"
     }
   ],
   "navigationFallback": {
