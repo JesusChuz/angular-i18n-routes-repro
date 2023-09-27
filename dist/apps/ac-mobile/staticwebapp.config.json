@@ -1,10 +1,6 @@
 {
   "trailingSlash": "auto",
   "routes": [
-   {
-      "route": "/",
-      "rewrite": "/en/index.html"
-    },
     {
       "route": "/index.html",
       "rewrite": "/en/index.html/"
@@ -24,7 +20,11 @@
     {
       "route": "/en/*",
       "rewrite": "/en/index.html/"
-    }
+    },
+    {
+      "route": "/",
+      "rewrite": "/en/index.html/"
+    },
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
