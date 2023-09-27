@@ -20,10 +20,10 @@
     {
       "route": "/testroute",
       "rewrite": "/testroute/index.html/"
+    },      
+    {
+      "route": "/en*",
+      "rewrite": "/en/index.html/"
     }
-  ],
-  "navigationFallback": {
-    "rewrite": "/es/index.html",
-    "exclude": ["/assets/*", "/es/*.{js,css}", "/en/*.{js,css}"]
-  }
+  ]
 }
