@@ -12,7 +12,11 @@
     {
       "route": "/testroute",
       "rewrite": "/testroute/index.html/"
-    }
+    },
+    {
+      "route": "/es/profile",
+      "rewrite": "/es/profile/index.html/"
+    },
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
