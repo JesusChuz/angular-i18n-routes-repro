@@ -16,5 +16,9 @@
       "route": "/es/*",
       "rewrite": "/es/index.html/"
     }
-  ]
+  ],
+  "navigationFallback": {
+    "rewrite": "/en/index.html",
+    "exclude": ["/assets/*", "/es/*.{js,css}", "/en/*.{js,css}"]
+  }
 }
