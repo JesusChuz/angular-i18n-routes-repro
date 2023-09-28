@@ -2,9 +2,6 @@
   "trailingSlash": "auto",
   "routes": [
     {
-      "route": "*.{js,json,css,jpg,png,ico,webmanifest}"
-    },
-    {
       "route": "/",
       "rewrite": "/en/index.html/"
     },
