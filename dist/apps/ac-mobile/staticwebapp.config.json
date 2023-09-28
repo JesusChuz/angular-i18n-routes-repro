@@ -9,6 +9,10 @@
       "rewrite": "/en/index.html"
     },
     {
+      "route": "/index.html",
+      "rewrite": "/en/index.html"
+    },
+    {
       "route": "/en/*",
       "rewrite": "/en/index.html"
     },
