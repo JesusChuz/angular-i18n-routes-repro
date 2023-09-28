@@ -10,12 +10,12 @@
       "rewrite": "/en/index.html"
     },
     {
-      "route": "/es",
+      "route": "/es*",
       "rewrite": "/es/index.html"
     }
   ],
   "navigationFallback": {
-    "rewrite": "/es/index.html",
+    "rewrite": "/nvfallbacktest/index.html",
     "exclude": ["/assets/*", "/es/*.{js,css}", "/en/*.{js,css}"]
   }
 }
