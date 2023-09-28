@@ -5,6 +5,10 @@
       "route": "*.{js,json,css,jpg,png,ico,webmanifest}"
     },
     {
+      "route": "/",
+      "rewrite": "/en/index.html/"
+    },
+    {
       "route": "/en/*",
       "rewrite": "/en/index.html/"
     },
