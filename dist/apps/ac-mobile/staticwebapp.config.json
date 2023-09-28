@@ -2,16 +2,19 @@
   "trailingSlash": "auto",
   "routes": [
     {
+      "route": "*.{js,json,css,jpg,png,ico,webmanifest}"
+    },
+    {
       "route": "/",
-      "rewrite": "/en/index.html/"
+      "rewrite": "/en/index.html"
     },
     {
       "route": "/en/*",
-      "rewrite": "/en/index.html/"
+      "rewrite": "/en/index.html"
     },
     {
       "route": "/es/*",
-      "rewrite": "/es/index.html/"
+      "rewrite": "/es/index.html"
     }
   ],
   "navigationFallback": {
