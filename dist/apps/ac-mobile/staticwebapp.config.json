@@ -10,7 +10,11 @@
       "rewrite": "/en/index.html"
     },
     {
-      "route": "/es/*.{js,css}",
+      "route": "/es/*",
+      "rewrite": "/es/index.html"
+    },
+    {
+      "route": "/es/",
       "rewrite": "/es/index.html"
     }
   ],
