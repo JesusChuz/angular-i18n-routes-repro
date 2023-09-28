@@ -11,11 +11,11 @@
     },
     {
       "route": "/es/*",
-      "rewrite": "/es/index.html"
+      "rewrite": "/es/index.html/"
     },
     {
       "route": "/es/",
-      "rewrite": "/es/index.html"
+      "rewrite": "/es/index.html/"
     }
   ],
   "navigationFallback": {
